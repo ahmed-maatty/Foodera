@@ -1,0 +1,54 @@
+header {
+    background: url(../../imgs/header.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    text-align: left;
+}
+
+header h1 {
+    color: #43121d;
+    width: 95%;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.1;
+    padding-top: 65px;
+}
+
+header p{
+    color: #333;
+    margin: 16px 0;
+    font-weight: 500;
+    width: 80%;
+}
+
+header button {
+    width: 150px;
+    height: 50px;
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 10px 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 0.4s;
+}
+
+header button:last-of-type {
+    background-color: #fff;
+    color: black;
+    border: 3px solid #fff;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+}
+
+header button:last-of-type:hover {
+    border: 3px solid #a82d49;
+    color: #a82d49;
+}
+
+header button:hover {
+    background-color: #fff;
+    color: #a82d49;
+}
